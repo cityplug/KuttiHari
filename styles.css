@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.navbar, .hero, .tour-dates, .news, .footer {
+    text-align: center;
+    padding: 50px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.navbar {
+    background-color: #333;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero {
+    background-color: #007bff;
+    color: white;
+}
+
+.tour-dates {
+    background-color: #ffffff;
+}
+
+.news {
+    background-color: #f8f9fa;
+}
+
+.footer {
+    background-color: #222;
+    color: white;
+}
