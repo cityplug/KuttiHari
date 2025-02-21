@@ -3,34 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing Page</title>
+    <title>KuttiHari | Tamil Stand-Up Comedian</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
 </head>
 <body>
 
     <!-- Navigation Bar -->
     <nav class="navbar">
-        <h2>Navigation Bar</h2>
+        <div class="container">
+            <h1 class="logo">Kutti Hari</h1>
+            <ul class="nav-links">
+                <li><a href="#tour-dates">Tour Dates</a></li>
+                <li><a href="#news">News</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
     </nav>
 
-    <!-- Hero Section (Image/Video + CTA) -->
-    <section class="hero">
-        <h2>Hero Section (Image/Video + CTA)</h2>
+    <!-- Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Welcome to My World</h1>
+            <p>Discover my latest tour dates, and exclusive content.</p>
+            <a href="#tour-dates" class="cta-button">Explore Tour Dates</a>
+        </div>
+    </header>
+
+    <!-- Tour Dates Section -->
+    <section id="tour-dates" class="tour-dates">
+        <h2>Upcoming Tour Dates</h2>
+        <ul class="event-list">
+            <li><strong>March 15, 2025</strong> - London, UK</li>
+            <li><strong>April 10, 2025</strong> - Paris, France</li>
+            <li><strong>May 5, 2025</strong> - Berlin, Germany</li>
+        </ul>
     </section>
 
-    <!-- Tour Dates (List of Events) -->
-    <section class="tour-dates">
-        <h2>Tour Dates (List of Events)</h2>
+    <!-- News Section -->
+    <section id="news" class="news">
+        <h2>Latest News</h2>
+        <div class="news-item">
+            <h3>Interview with Stefan Shuman!</h3>
+            <p>My latest interview with Stefan Shuman. Stay tuned for updates!</p>
+        </div>
     </section>
 
-    <!-- Latest News Section -->
-    <section class="news">
-        <h2>Latest News Section</h2>
-    </section>
-
-    <!-- Footer (Social Links, Contact) -->
-    <footer class="footer">
-        <h2>Footer (Social Links, Contact)</h2>
+    <!-- Footer Section -->
+    <footer class="footer" id="contact">
+        <p>Connect with me on social media</p>
+        <div class="social-links">
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-square-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-youtube"></i></a>
+        </div>
     </footer>
 
 </body>

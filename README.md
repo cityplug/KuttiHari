@@ -1,9 +1,12 @@
-mkdir -p ~/landing-page
-cd ~/landing-page
+mkdir -p ~/landing
+cd ~/landing
+touch Dockerfile
+touch index.html
+touch styles.css
 
-cd ~/landing-page
-docker build -t landing-page .
-docker run -d -p 8080:80 --name my-landing-page -v ~/landing-page:/usr/share/nginx/html landing-page
+cd ~/landing
+docker build -t landing
+docker run -d -p 8080:80 --name landing -v ~/landing:/usr/share/nginx/html landing
 
-docker rm -f my-landing-page
-docker run -d -p 8080:80 --name my-landing-page -v ~/landing-page:/usr/share/nginx/html landing-page
+docker rm -f landing
+docker run -d -p 80:80 --name landing -v ~/landing:/usr/share/nginx/html landing
