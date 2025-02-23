@@ -1,4 +1,4 @@
-mkdir -p ~/landing
+mkdir -p ~/landing/fonts
 cd ~/landing
 touch Dockerfile
 touch index.html
